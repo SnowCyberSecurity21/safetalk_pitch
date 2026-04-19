@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <title>SafeTalk — AI Security</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- ICONS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #010409;
+      color: #e6edf3;
+    }
+
+    header {
+      background: #010409;
+      border-bottom: 1px solid #1E88E5;
+      padding: 15px;
+      text-align: center;
+      position: sticky;
+      top: 0;
+    }
+
+    header h1 {
+      margin: 0;
+      color: #1E88E5;
+    }
+
+    nav a {
+      color: #e6edf3;
+      margin: 0 10px;
+      text-decoration: none;
+      font-size: 13px;
+    }
+
+    nav a:hover {
+      color: #1E88E5;
+    }
+
+    section {
+      padding: 70px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h2 {
+      text-align: center;
+      color: #1E88E5;
+    }
+
+    .card {
+      background: #0d1117;
+      border: 1px solid #1E88E5;
+      padding: 25px;
+      border-radius: 10px;
+      margin-top: 20px;
+    }
+
+    /* HERO */
+    .hero {
+      text-align: center;
+      padding: 120px 20px 60px;
+    }
+
+    .hero h1 {
+      font-size: 50px;
+      color: #1E88E5;
+    }
+
+    .hero p {
+      color: #9da5b4;
+      max-width: 600px;
+      margin: auto;
+    }
+
+    /* DEMO BUTTON */
+    .demo-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 15px;
+      background: #1E88E5;
+      color: black;
+      font-weight: bold;
+      padding: 20px 40px;
+      border-radius: 20px;
+      margin-top: 40px;
+      text-decoration: none;
+      font-size: 18px;
+      transition: 0.3s;
+    }
+
+    .demo-btn:hover {
+      background: #42a5f5;
+      transform: scale(1.05);
+    }
+
+    .demo-btn i {
+      font-size: 24px;
+    }
+
+    /* TEAM */
+    .team-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+    }
+
+    .member {
+      width: 220px;
+      text-align: center;
+    }
+
+    .member img {
+      width: 100%;
+      height: 260px;
+      object-fit: cover;
+      border-radius: 8px;
+      border: 1px solid #1E88E5;
+    }
+
+    /* ROADMAP */
+    .roadmap {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    .step {
+      padding: 15px;
+      border-radius: 10px;
+      border: 1px solid #1E88E5;
+      background: #0d1117;
+    }
+
+    .step.done {
+      opacity: 0.4;
+      text-decoration: line-through;
+    }
+
+    .step.current {
+      box-shadow: 0 0 10px #1E88E5;
+      background: #0f172a;
+    }
+
+    .step.next {
+      opacity: 0.85;
+    }
+
+    /* TECH */
+    .tech-list {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    .tech-item {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      padding: 12px;
+      border: 1px solid #1E88E5;
+      border-radius: 8px;
+      background: #0d1117;
+    }
+
+    .tech-item i {
+      color: #1E88E5;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      border-top: 1px solid #1E88E5;
+      color: #6e7681;
+      font-size: 12px;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>SafeTalk</h1>
+  <nav>
+    <a href="#problem">Muammo</a>
+    <a href="#team">Jamoa</a>
+    <a href="#why">Nega biz</a>
+    <a href="#roadmap">Yo‘l xaritasi</a>
+    <a href="#tech">Texnologiya</a>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <h1>SafeTalk</h1>
+  <p>
+    SMS va Telegram orqali keluvchi phishing, scam va zararli xabarlarni 
+    real vaqt rejimida aniqlovchi AI xavfsizlik tizimi.
+  </p>
+
+  <!-- DEMO BUTTON -->
+  <a href="https://youtube.com/shorts/PDwpOlkNsZk?si=RQAfQyypP1XXtd0n" 
+     target="_blank" class="demo-btn">
+    <i class="fab fa-youtube"></i>
+    LOYIHANI KO'RISH (DEMO)
+  </a>
+
+</section>
+
+
+<!-- MUAMMO -->
+<section id="problem">
+  <h2>Muammo → Yechim</h2>
+
+  <div class="card">
+    <h3>Muammo</h3>
+    <p>
+      Foydalanuvchilar SMS va Telegram orqali keladigan phishing va scam xabarlar orqali zarar ko‘rmoqda.
+      Ko‘pchilik xavfni vaqtida aniqlay olmaydi.
+    </p>
+  </div>
+
+  <div class="card">
+    <h3>Yechim — SafeTalk</h3>
+    <p>
+      SafeTalk real-time AI tizim bo‘lib,
+      xabarlarni kelishidan oldin analiz qiladi va foydalanuvchini ogohlantiradi.
+    </p>
+  </div>
+</section>
+
+<!-- TEAM -->
+<section id="team">
+  <h2>JAMOA</h2>
+
+  <div class="team-container">
+    <div class="member">
+      <img src="images/me.jpg">
+      <h3>RASULBERDI ANOROV</h3>
+      <p>Founder / Lead Developer</p>
+    </div>
+
+    <div class="member">
+      <img src="images/Sevinch.jpg">
+      <h3>SEVINCH ABDIVAITOVA</h3>
+      <p>PR & Communications</p>
+    </div>
+
+    <div class="member">
+      <img src="images/Nozima.jpg">
+      <h3>KARIMOVA NOZIMAXON</h3>
+      <p>PR & Communications</p>
+    </div>
+
+    <div class="member">
+      <img src="images/Shoxijaxon.jpg">
+      <h3>ZIYODULLAYEV SHOXIJAHON</h3>
+      <p>Marketing & Growth</p>
+    </div>
+  </div>
+</section>
+
+<!-- WHY -->
+<section id="why">
+  <h2>Nima uchun SafeTalk?</h2>
+  <div class="card">
+    <ul>
+      <li>✔ Real ishlaydigan MVP</li>
+      <li>✔ Hybrid AI (ML + Rule-based)</li>
+      <li>✔ Real-time himoya</li>
+      <li>✔ To‘liq offline ishlaydi</li>
+      <li>✔ On-device AI (maxfiylik)</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ROADMAP -->
+<section id="roadmap">
+  <h2>Yo‘l xaritasi</h2>
+  <div class="card">
+    <div class="roadmap">
+      <div class="step done">Idea</div>
+      <div class="step done">Prototype</div>
+      <div class="step current">MVP (hozir)</div>
+      <div class="step next">Beta</div>
+      <div class="step next">Launch</div>
+    </div>
+  </div>
+</section>
+
+<!-- TECH -->
+<section id="tech">
+  <h2>Texnologiyalar</h2>
+
+  <div class="card">
+    <div class="tech-list">
+
+      <div class="tech-item">
+        <i class="fab fa-android"></i>
+        Android (Kotlin)
+      </div>
+
+      <div class="tech-item">
+        <i class="fab fa-python"></i>
+        Python ML
+      </div>
+
+      <div class="tech-item">
+        <i class="fas fa-brain"></i>
+        TF-IDF + Logistic Regression
+      </div>
+
+      <div class="tech-item">
+        <i class="fas fa-microchip"></i>
+        ONNX (on-device AI)
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<footer>
+  SafeTalk © 2026
+</footer>
+
+</body>
+</html>
